@@ -1,7 +1,7 @@
 insert-img package
 ==============================================================
 
-##### This [Atom package](https://atom.io/packages/markdown-themeable-pdf) helps you insert images easily from clipboard, save the image into file and uploade the image to qiniu cloud.
+##### This [Atom package](https://atom.io/packages/insert-img) helps you insert images easily from clipboard, save the image into file and uploade the image to qiniu cloud.
 
 ### Credits
 

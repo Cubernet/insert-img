@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "description": "An atom package for inserting images easily from clipboard, saving the image to file and uploading the image to qiniu cloud.",
   "keywords": [
-    "insert",
+    "insert-img",
     "markdown",
     "qiniu",
     "image"
@@ -53,9 +53,9 @@
   "repository": "https://github.com/Cubernet/insert-img",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0"
+    "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "qiniu": ">=1.0.0 <2.0.0"
+    "qiniu": ">=6.0.0"
   }
 }
