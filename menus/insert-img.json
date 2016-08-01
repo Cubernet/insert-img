@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Insert image",
+        "command": "insert-img:paste"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Insert image",
+          "submenu": [
+            {
+              "label": "Inster",
+              "command": "insert-img:paste"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "insert-img",
+  "main": "./lib/insert-img",
+  "version": "0.2.1",
+  "description": "An atom package for inserting images easily from clipboard, saving the image to file and uploading the image to qiniu cloud.",
+  "keywords": [
+    "insert",
+    "markdown",
+    "qiniu",
+    "image"
+  ],
+  "activationCommands": {
+    "atom-workspace": "insert-img:paste"
+  },
+  "configSchema": {
+    "isMarkdown": {
+      "type": "boolean",
+      "default": true,
+      "title": "只在markdown文件中启用该插件",
+      "description": ""
+    },
+    "isQiniu": {
+      "type": "boolean",
+      "default": true,
+      "title": "markdown中插入的图片地址默认采用七牛链接",
+      "description": ""
+    },
+    "qiniuAK": {
+      "type": "string",
+      "default": "",
+      "title": "七牛-AK",
+      "description": ""
+    },
+    "qiniuSK": {
+      "type": "string",
+      "default": "",
+      "title": "七牛-SK",
+      "description": ""
+    },
+    "qiniuBucket": {
+      "type": "string",
+      "default": "",
+      "title": "七牛-Bucket",
+      "description": ""
+    },
+    "qiniuDomain": {
+      "type": "string",
+      "default": "",
+      "title": "七牛-Domain",
+      "description": ""
+    }
+  },
+  "repository": "https://github.com/Cubernet/insert-img",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0"
+  },
+  "dependencies": {
+    "qiniu": ">=1.0.0 <2.0.0"
+  }
+}
