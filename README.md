@@ -1,4 +1,4 @@
-insert-img package
+insert-img
 ==============================================================
 [![Version](https://img.shields.io/badge/Version-0.1.1-green.svg)](https://github.com/Cubernet/insert-img/releases)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Cubernet/insert-img/master/LICENSE)
