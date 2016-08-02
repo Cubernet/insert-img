@@ -21,7 +21,7 @@
     },
     "isQiniu": {
       "type": "boolean",
-      "default": true,
+      "default": false,
       "title": "markdown中插入的图片地址默认采用七牛链接",
       "description": ""
     },
