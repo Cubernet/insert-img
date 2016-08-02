@@ -23,11 +23,11 @@ You can choose any of the following ways to install this package. You'd better r
 
   1. Choose whether enable this package only in markdown file.
 
-  ![](assets/README-5e199cc2.png)
+  ![](https://github.com/Cubernet/insert-img/blob/master/assets/README-5e199cc2.png)
 
   2. If you have a qiniu `bucket`, after input the `七牛-AK` `七牛-Bucket` `七牛-Domain` and `七牛-SK`, you can also insert the qiniu-linked-image.  
 
-  ![](assets/README-a5460fc9.png)
+  ![](https://github.com/Cubernet/insert-img/blob/master/assets/README-a5460fc9.png)
 
 ### Credits
 
